@@ -1,0 +1,65 @@
+.header__container {
+    font-family: 'Open Sans', sans-serif;
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    width: 89%;
+    margin: 13rem auto;
+}
+
+.main__subject {
+    width: 89%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main__title {
+    font-size: 2.7rem;
+    color: #121724;
+    font-weight: 700;
+}
+
+main p {
+    font-family: 'Open Sans', sans-serif;
+    width: 53.4%;
+    font-size: 1.15rem;
+    line-height: 1.5em;
+    margin: 1.7rem auto;
+    color: #4b4c4d;
+    font-weight: 600;
+    text-align: justify;
+    text-align-last: center;
+}
+.main__btn {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 40px;
+    width: 36%;
+    padding: 23px 0;
+    margin-top: 1rem;
+    background-color: hsl(322, 100%, 66%);
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 1px 8px 10px #cfcfcf;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main__btn:hover {
+    background-color: hsl(321, 100%, 78%);
+    /* width: 37.5%;
+    font-size: 1.2rem;
+    box-shadow: 1px 8px 10px #9b9b9b */
+}
+
+
+/* aumentar fontes no media querry. */

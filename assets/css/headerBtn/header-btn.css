@@ -1,0 +1,18 @@
+.header__btn {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 10px 25px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.header__btn:hover {
+    color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+    /* background-color: hsl(322, 100%, 66%);
+    box-shadow: 1px 8px 15px #acacac;
+    font-size: 1.1rem; */
+}
