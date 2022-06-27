@@ -1,0 +1,23 @@
+.main__btn {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 40px;
+    width: 36%;
+    padding: 23px 0;
+    margin-top: 1rem;
+    background-color: hsl(322, 100%, 66%);
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 1px 8px 10px #cfcfcf;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main__btn:hover {
+    background-color: hsl(321, 100%, 78%);
+    /* width: 37.5%;
+    font-size: 1.2rem;
+    box-shadow: 1px 8px 10px #9b9b9b */
+}
