@@ -6,7 +6,7 @@
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/headerBtn/header-btn.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
@@ -16,9 +16,9 @@
 <body>
   <header>
     <div class="header__container">
-    <a class="header__logo" href="index.html"><img src="./assets/images/logo.svg" alt="huddle logo and homepage link"></a>
-    <a href=""><button class="header__btn">Try It Free</button></a>
-  </div> 
+      <a class="header__logo" href="index.html"><img src="./assets/images/logo.svg" alt="huddle logo and homepage link"></a>
+      <a href=""><button class="header__btn">Try It Free</button></a>
+    </div> 
   </header>
 
   <main>
@@ -27,13 +27,83 @@
       <p class="main__description">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
       <a href=""><button class="main__btn">Get Started For Free</button></a>
     </section>
+
+    <section>
+      <div class="screen__mockups"></div>
+      <div class="flex_1">
+        <div>
+          <div class="image-1"></div>
+          <p class="h2">1.4k+</p>
+          <p class="small">Communities Formed</p>
+        </div>
+        <div>
+          <div class="image-2"></div>
+          <p class="h2">2.7m+</p>
+          <p class="small">Messages Sent</p>
+        </div>
+      </div>
+
+      <div class="grow__together">
+        <div class="bordatop"></div>
+        <div class="grow__together__container">
+            <div class="grow__together__texto">
+              <p class="h3">Grow Together</p>
+              <p class="small2">Generate meaningful discussions with your audience and build a strong, loyal community. 
+                Think of the insightful conversations you miss out on with a feedback form.</p> 
+            </div>  
+            <div class="grow__together__image"></div>
+        </div>
+        <div class="bordabot"></div>
+      </div>
+
+      <div class="flowing__conversations">
+        <div class="grow__together__container">
+          <div class="flowing__conversations__image"></div>
+          <div class="flowing__conversations__texto">
+            <p class="h3">Flowing Conversations</p>
+            <p class="small2">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+              just-in-time loading for a more natural flow.</p> 
+          </div> 
+        </div>
+      </div>
+
+      <div class="grow__together">
+        <div class="bordatop2"></div>
+        <div class="grow__together__container">
+            <div class="grow__together__texto">
+              <p class="h3">Your Users</p>
+              <p class="small2">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+                once signed in to your app, your users can start chatting immediately.</p> 
+            </div>  
+            <div class="your__users__image"></div>
+        </div>
+        <div class="bordabot2"></div>
+      </div>
+
+      <section class="main__subject">
+        <h1 class="h3">Ready To Build Your Community?</h1>
+        <a href=""><button class="main__btn">Get Started For Free</button></a>
+      </section>
+      
+    </section>
   </main>
 
+  <div class="bordafooter"></div>
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+      <div class="rodape__flex">
+        <div class="item logo__rodape"></div>
+        <div class="item h4"><p>Newsletter</p></div>
+        <div class="item rodape__texto1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+          vestibulum a, ultrices quis sem.</p></div>
+        <div class="item rodape__texto2"><p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+            send you spam or pass on your email address</p></div>    
+        <div class="item contato">
+          <p class="phone">Phone: xx xxxxxxxx</p> 
+          <p class="">Email: felipe@gmail.com</p>
+        </div>
+        <div class="item"><input type="text"></div>
+      </div>
+
   </footer>
 </body>
 </html>
