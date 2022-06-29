@@ -10,9 +10,15 @@
 }
 
 .header__btn:hover {
-    color: hsl(321, 100%, 78%);
-    border-color: hsl(321, 100%, 78%);
+    color: hsl(321, 90%, 81%);
+    border-color: hsl(321, 90%, 81%);
     /* background-color: hsl(322, 100%, 66%);
     box-shadow: 1px 8px 15px #acacac;
     font-size: 1.1rem; */
+}
+
+@media (max-width: 768px) {
+    .header__btn {
+        padding: 7px 25px;
+    }
 }

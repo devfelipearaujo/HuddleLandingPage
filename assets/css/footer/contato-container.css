@@ -1,0 +1,48 @@
+.contato__container {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.contato__item {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.icon__phone {
+    background-image: url(../../images/icon-phone.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 5.5%;
+    height: 20px;
+    margin-right: 2%;
+} 
+
+ .icon__email {
+    background-image: url(../../images/icon-email.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 5.5%;
+    height: 20px;
+    margin-right: 2%;
+}
+
+.input__text {
+    width: 278.5px;
+    padding: 13px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .input__text {
+        width: 320px;
+    }
+
+    .contato__container {
+        margin-top: 6%;
+    }
+
+}

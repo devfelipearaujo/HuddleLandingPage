@@ -7,17 +7,21 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/headerBtn/header-btn.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/mainSubject/main-btn.css">
+  <link rel="stylesheet" href="./assets/css/footer/social-links.css">
+  <link rel="stylesheet" href="./assets/css/footer/contato-container.css">
+  <link rel="stylesheet" href="./assets/css/footer/rodape-btn.css">
 </head>
 <body>
   <header>
     <div class="header__container">
-      <a class="header__logo" href="index.html"><img src="./assets/images/logo.svg" alt="huddle logo and homepage link"></a>
-      <a href=""><button class="header__btn">Try It Free</button></a>
+      <a class="header__item" href="index.html"><img class="header__logo" src="./assets/images/logo.svg" alt="huddle logo and homepage link"></a>
+      <a class="header__item href=""><button class="header__btn">Try It Free</button></a>
     </div> 
   </header>
 
@@ -30,13 +34,13 @@
 
     <section>
       <div class="screen__mockups"></div>
-      <div class="flex_1">
-        <div>
+      <div class="values__container">
+        <div class="values__item">
           <div class="image-1"></div>
           <p class="h2">1.4k+</p>
           <p class="small">Communities Formed</p>
         </div>
-        <div>
+        <div class="">
           <div class="image-2"></div>
           <p class="h2">2.7m+</p>
           <p class="small">Messages Sent</p>
@@ -44,7 +48,7 @@
       </div>
 
       <div class="grow__together">
-        <div class="borda__top"></div>
+        <img src="./assets/images/bg-section-top-desktop-1.svg" alt="">
         <div class="grow__together__container">
             <div class="grow__together__texto">
               <p class="h3">Grow Together</p>
@@ -53,11 +57,11 @@
             </div>  
             <div class="grow__together__image"></div>
         </div>
-        <div class="borda__bot"></div>
+        <img src="./assets/images/bg-section-bottom-desktop-1.svg" alt="">
       </div>
 
       <div class="flowing__conversations">
-        <div class="grow__together__container">
+        <div class="flowing__conversations__container">
           <div class="flowing__conversations__image"></div>
           <div class="flowing__conversations__texto">
             <p class="h3">Flowing Conversations</p>
@@ -68,7 +72,7 @@
       </div>
 
       <div class="grow__together">
-        <div class="bordatop2"></div>
+        <img src="./assets/images/bg-section-top-desktop-2.svg" alt="">
         <div class="grow__together__container">
             <div class="grow__together__texto">
               <p class="h3">Your Users</p>
@@ -77,7 +81,7 @@
             </div>  
             <div class="your__users__image"></div>
         </div>
-        <div class="bordabot2"></div>
+        <img src="./assets/images/bg-section-bottom-desktop-2.svg" alt="">
       </div>
 
       <section class="main__subject">
@@ -88,22 +92,35 @@
     </section>
   </main>
 
-  <div class="borda__footer"></div>
-  <footer>
-      <div class="rodape__flex">
-        <div class="item logo__rodape"></div>
-        <div class="item h4"><p>Newsletter</p></div>
-        <div class="item rodape__texto1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+  <div class="borda__footer">
+    <img src="./assets/images/bg-footer-top-mobile.svg" alt="">
+    <footer class="rodape__container">
+      <div class="rodape__container1">
+        <div class="rodape__item logo__rodape"></div>
+        <div class="rodape__item rodape__texto1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
           vestibulum a, ultrices quis sem.</p></div>
-        <div class="item rodape__texto2"><p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-            send you spam or pass on your email address</p></div>    
-        <div class="item contato">
-          <p class="phone">Phone: xx xxxxxxxx</p> 
-          <p class="">Email: felipe@gmail.com</p>
+         <div class="rodape__item contato__container">
+          <div class="icon__phone contato__item"></div>
+          <p class="contato__item">Phone: +1-543-123-4567</p>
+          <div class="icon__email contato__item"></div>
+           <p class="contato__item">example@huddle.com</p>
+          <div class="social__links">
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-instagram"></a>
+            <a href="" class="fa fa-twitter"></a>
+          </div>
         </div>
-        <div class="item"><input type="text"></div>
       </div>
-
-  </footer>
+          <div class="rodape__container2">
+            <div class="rodape__item h4"><p>Newsletter</p></div>
+            <div class="rodape__item rodape__texto2"><p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+                send you spam or pass on your email address</p></div>   
+            <div class="rodape__item newsletter">
+            <input class="input__text" type="text">
+            <input class="rodape__btn" type="button" value="Subscribe">
+            </div>
+          </div>
+    </footer>
+  </div>
 </body>
 </html>

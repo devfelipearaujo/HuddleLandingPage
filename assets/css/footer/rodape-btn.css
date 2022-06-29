@@ -1,0 +1,23 @@
+.rodape__btn {
+    margin-left: 28px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    width: 148.42px;
+    background-color: hsl(322, 100%, 66%);
+    transition: 0.5s;
+}
+
+.rodape__btn:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+@media (max-width: 768px) {
+    .rodape__btn {
+        margin-top: 3%;
+        margin-left: 171px;
+    }
+}

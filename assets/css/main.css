@@ -1,29 +1,304 @@
 main {
-    font-family: 'Poppins', sans-serif;
-    width: 89%;
-    margin: 13rem auto;
+    font-family: 'Open Sans', sans-serif;
+    margin: 13rem auto 11rem auto;
 }
+
+/* body {
+    background: #e2e2e2;
+} */
 
 .main__subject {
     text-align: center;
+    margin: 0 auto;
+    width: 89%;
 }
 
 .main__title {
+    font-family: 'Poppins', sans-serif;
     font-size: 2.7rem;
-    color: #121724;
+    color: hsl(192, 100%, 9%);
     font-weight: 700;
 }
 
 .main__description {
-    font-family: 'Open Sans', sans-serif;
-    width: 53.4%;
-    font-size: 1.15rem;
+    width: 44.25%;
+    font-size: 1.05rem;
     line-height: 1.5em;
     margin: 1.7rem auto;
     color: #4b4c4d;
     font-weight: 600;
-    text-align: justify;
     text-align-last: center;
 }
+
+.screen__mockups {
+    background-image: url(../images/screen-mockups.svg);
+    background-size: 69.3%;
+    margin: 7% auto;
+    background-repeat: no-repeat;
+    height: 669px;
+    background-position: center;
+}
+
+.values__container {
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    margin: 0 3%;
+    justify-content: space-around;
+    padding: 0 0 8.5% 0;
+}
+
+.grow__together {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow__together, .flowing__conversations {
+    margin-bottom: 7rem;
+}
+
+.flowing__conversations__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:  hsl(0, 0%, 100%);
+    background-repeat: no-repeat;
+}
+
+.grow__together__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:  hsl(207, 100%, 98%);
+    background-repeat: no-repeat;
+}
+
+/* .borda__top {
+    background-image: url(../images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 130px;
+}
+
+.bordatop2 {
+    background-image: url(../images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 130px;
+} */
+
+/* .borda__bot {
+    background-image: url(../images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 130px;
+}
+
+.bordabot2 {
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 130px;
+} */
+
+.h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.38rem;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 15px;
+}
+
+.small2 {
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+    margin: 20px 0;
+    font-weight: 500;
+    color: hsl(192, 100%, 9%);
+}
+
+.h2 {
+    font-size: 5.5rem;
+    margin-top: 10px;
+    color:hsl(192, 100%, 9%);
+}
+
+.small {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #979797;
+    text-align: center;
+}
+
+.image-1 {
+    height: 42px;
+    width: 46px;
+    background-image: url(../images/icon-communities.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-2 {
+    height: 40px;
+    width: 42px;
+    background-size: 38px;
+    background-image: url(../images/icon-messages.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grow__together__image {
+    height: 500px;
+    width: 60%;
+    background-image: url(../images/illustration-grow-together.svg);
+    background-size: 79.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8%;
+}
+
+.flowing__conversations__image {
+    height: 500px;
+    width: 60%;
+    background-image: url(../images/illustration-flowing-conversation.svg);
+    background-size: 79.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8%;
+}
+
+.your__users__image {
+    height: 500px;
+    width: 60%;
+    background-image: url(../images/illustration-your-users.svg);
+    background-size: 79.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8%;
+}
+
+.grow__together__texto {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 85px 0 0;
+    margin-left: 8%;
+}
+
+.flowing__conversations__texto {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+main .main__subject:last-child {
+    margin-top: 8rem;
+}
+
+main .main__subject:last-child .main__btn {
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px){
+
+    main {
+        margin-top: 6rem;
+    }
+
+    .main__title {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .main__description{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .screen__mockups {
+        height: 400px;
+    }
+
+    .grow__together__container {
+        flex-direction: column-reverse;
+    }
+
+    .grow__together__image {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .grow__together__texto {
+        padding: 0;
+        align-items: center;
+        width: 92%;
+        text-align-last: center;
+    }
+
+    .borda__top {
+    }
+
+    .flowing__conversations__container {
+        flex-direction: column;
+    }
+
+    .flowing__conversations__image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .flowing__conversations__texto {
+        align-items: center;
+        width: 86%;
+        margin: 0%;
+        padding: 0
+    }
+
+    .your__users__image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .bordatop2 {
+        background-image: url(../images/bg-section-top-mobile-2.svg);
+        height: 100px;
+    }
+
+    .values__container {
+        flex-direction: column;
+    }
+
+    .h2 {
+        font-size: 3.5rem;
+    }
+
+    .h3 {
+        font-size: 1.38rem;
+    }
+
+    .small {
+        font-size: 1rem;
+    }
+
+    .image-1, .image-2 {
+        background-size: 75%;
+    }
+
+    .values__item {
+        margin-bottom: 5rem;
+    }
+
+}
+
+/* .icones__redes {
+    padding: 10rem 0;
+} */
 
 /* aumentar fontes no media querry. */
