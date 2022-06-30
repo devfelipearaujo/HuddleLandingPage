@@ -31,9 +31,15 @@
 
 .input__text {
     width: 278.5px;
-    padding: 13px 0;
+    padding: 13px 10px;
     border: none;
     border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.input__text:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

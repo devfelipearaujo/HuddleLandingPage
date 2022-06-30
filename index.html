@@ -115,10 +115,11 @@
             <div class="rodape__item h4"><p>Newsletter</p></div>
             <div class="rodape__item rodape__texto2"><p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
                 send you spam or pass on your email address</p></div>   
-            <div class="rodape__item newsletter">
-            <input class="input__text" type="text">
-            <input class="rodape__btn" type="button" value="Subscribe">
-            </div>
+            <form class="rodape__item subscribe">
+              <input class="input__text" type="text" required placeholder="user@mail.com" oninvalid="this.setCustomValidity('Please check your email.')"
+              oninput="this.setCustomValidity('')">
+              <input class="rodape__btn" type="submit" value="Subscribe">
+            </form>
           </div>
     </footer>
   </div>

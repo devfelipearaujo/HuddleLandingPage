@@ -13,6 +13,7 @@
 
 .rodape__btn:hover {
     background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
