@@ -1,6 +1,6 @@
 .header__btn {
     text-decoration: none;
-    background-color: #FFFFFF;
+    background-color: #f0f0f0;
     color: hsl(322, 100%, 66%);
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 20px;
@@ -14,7 +14,8 @@
     border-color: hsl(321, 90%, 81%);
     /* background-color: hsl(322, 100%, 66%);
     box-shadow: 1px 8px 15px #acacac;
-    font-size: 1.1rem; */
+    font-size: 0.9rem;
+    font-weight: bold; */
 }
 
 @media (max-width: 768px) {

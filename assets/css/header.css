@@ -10,18 +10,23 @@
 
 @media (max-width: 768px) {
     .header__container {
+        justify-content: space-around;
         width: 100%;
-        margin-left: 1rem;
+        margin-left: 0;
         margin-right: 2rem;
         margin-top: 2rem;
+    }
+
+    .header__item {
+        width: 40%;
     }
 
     .header__logo {
         width: 100%;
     }
 
-    .header__item {
-        width: 40%;
+    header__btn {
+        width: 100%;
     }
 
 }

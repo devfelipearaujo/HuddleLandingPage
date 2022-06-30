@@ -16,9 +16,22 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 699px) {
     .rodape__btn {
         margin-top: 3%;
         margin-left: 171px;
+    }
+}
+
+@media (min-width: 769px) {
+    .rodape__btn {
+        margin-top: 3%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1100px) {
+    .rodape__btn {
+        margin-left: 28px;
     }
 }

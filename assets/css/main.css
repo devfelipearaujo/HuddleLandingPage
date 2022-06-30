@@ -3,9 +3,9 @@ main {
     margin: 13rem auto 11rem auto;
 }
 
-/* body {
-    background: #e2e2e2;
-} */
+body {
+    background-color: #f0f0f0;
+}
 
 .main__subject {
     text-align: center;
@@ -63,6 +63,7 @@ main {
     align-items: center;
     background:  hsl(0, 0%, 100%);
     background-repeat: no-repeat;
+    background-color: #f0f0f0;
 }
 
 .grow__together__container {
