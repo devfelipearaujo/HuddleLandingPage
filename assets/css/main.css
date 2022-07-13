@@ -243,8 +243,8 @@ main .main__subject:last-child .main__btn {
         text-align-last: center;
     }
 
-    .borda__top {
-    }
+    /* .borda__top {
+    } */
 
     .flowing__conversations__container {
         flex-direction: column;
