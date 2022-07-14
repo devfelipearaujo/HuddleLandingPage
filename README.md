@@ -26,7 +26,7 @@ Users should be able to:
 - Since i used just HTML & CSS here, i'll do a **deep** dive in JS, to learn more about the leanguage and implement in my projects.
 
 ## Updates: 
-13/07 : Curved sections now swich to mobile version image with the JS code that i've implemeted.
+13/07 : Curved sections now switch to mobile version image with the JS code that i've implemented.
 
 <div align ="center">
 
