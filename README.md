@@ -10,7 +10,7 @@ A landing page challenge from frontendmentor.
 ## The challenge
 
 The challenge is to build out this landing page and get it looking as close to the design as possible.
-I didnt got acess to figma file so i used just the png screenshot. (you can see the design image at the end of the page)
+I didn't got acess to figma file so i used just the png screenshot. (you can see the design image at the end of the page)
 
 Users should be able to: 
 
