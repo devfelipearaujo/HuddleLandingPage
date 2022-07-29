@@ -28,6 +28,9 @@ Users should be able to:
 ## Updates: 
 13/07 : Curved sections now switch to mobile version image with the JS code that i've implemented.
 
+## Roadmap:
+- Add a modal form to the website.
+
 <div align ="center">
 
 ## Thank you all for come by and **LET'S CODE!!!**
